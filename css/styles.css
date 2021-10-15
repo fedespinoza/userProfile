@@ -1,0 +1,62 @@
+body{
+    background: rgb(239,226,239);
+    background: linear-gradient(90deg, rgba(239,226,239,1) 0%, rgba(252,238,223,1) 100%); 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container-box{
+    width: 486px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.photo img{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.description{
+    text-align: center;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn button.follow{
+    background: rgb(250,57,103);
+    background: linear-gradient(90deg, rgba(250,57,103,1) 0%, rgba(250,150,57,1) 100%); 
+    border: none;
+    padding: 15px 0;
+    width: 160px;
+    border-radius: 25px;
+    /* font-weight: bold; */
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.btn button.follow i,
+.btn button.send i{
+    padding-right: 5px;
+}
+
+.btn button.send{
+    background: #ffedd2;
+    border: none;
+    padding: 15px 0;
+    width: 160px;
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
